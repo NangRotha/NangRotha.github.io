@@ -1,0 +1,57 @@
+
+/* Header */
+
+a{
+    text-decoration: none;
+}
+.logo{
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.line{
+    background-color: gray;
+    width: 20px;
+    height: 2px;
+}
+.main-line{
+    background-color: #37517e;
+    height: 4px;
+}
+.subtitle{
+    font-size: 1rem;
+    color: gray;
+    font-weight: 400;
+}
+.section-title{
+    color: #37517e;
+}
+.navbar{
+    padding: 1rem 0rem;
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    background-color: white;
+    top: 0;
+    left: 0;
+    box-shadow: 0px 0px 20px 0px gray;
+
+}
+.humburger{
+    border: none;
+    color: white;
+}
+
+
+/* About me */
+.gradient-custom {
+    /* fallback for old browsers */
+    background: #f6d365;
+    
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: -webkit-linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1));
+    
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: linear-gradient(to right bottom, rgba(246, 211, 101, 1), rgba(253, 160, 133, 1))
+    }
+
